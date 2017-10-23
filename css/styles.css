@@ -1,0 +1,260 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* STUDENTS, PUT YOUR STYLES HERE */
+.item_1_box {
+background-color:#090;
+transition: background-color 1s ease-in 0s;
+}
+.item_1_box:hover {
+	background-color: #02aec6;
+}
+.item_2_box {
+width: 50%;
+transition: width 3s linear 0s;
+}
+
+.item_2_box:hover {
+width: 92%;
+}
+
+.item_3_box {
+height: 1.2em;
+transition: height .5s ease-out 0s;
+}
+.item_3_box:hover {
+	height: 5em;
+}
+.item_4_box {
+	transform: scale(1);
+	transition: transform 1s ease-in 0s;
+}
+.item_4_box:hover {
+	transform: scale(1.73);
+}
+.item_5_box {
+height: 1.2em;
+transition: opacity 2s linear 0s;
+}
+.item_5_box:hover {
+	opacity: .3;
+}
+.item_6_box {
+	color:#ff9;
+	font-size: 1em;
+	transition: color 2s linear 0s, font-size 2s ease-in 0s;
+}
+.item_6_box:hover {
+	color: #e932c2;
+	font-size: 3em;
+}
+
+.item_7_box {
+	border:#000 solid 1px;
+	transition: border .5s ease-out 0s;
+}
+.item_7_box:hover {
+	border:#e90909 solid 10px;
+}
+
+.item_8_box {
+	width: 80%;
+	padding-left: 4%;
+	text-align:left;
+	transition: padding-left 2s linear 0s, width 2s linear 0s;
+}
+.item_8_box:hover {
+	width: 44%;
+	padding-left: 40%;
+}
+.item_9_box {
+	box-shadow: 3px 3px 1px #888888;
+	transform: translateY();
+	transition: box-shadow 1.2s ease-out 0s, transform 1.2s ease-out 0s;
+}
+.item_9_box:hover {
+	box-shadow: 10px 10px 20px #777;
+	transform: translateY(-15%);
+}
+.item_10_box {
+	width:50%;
+	color:#ff9;
+	background-color: #090;
+	transition: width 1s linear 0s, color 1s linear 0s, background-color 1s linear 0s;
+}
+.item_10_box:hover {
+	width: 80%;
+	color: #6e1209;
+	background-color: #0498a7;
+}
+.item_11_box {
+	width:50%;
+	color:#ff9;
+	background-color: #090;
+	transition: background-color .5s linear 0s, width 1.5s linear .5s, color 1s ease-out 2s;
+}
+.item_11_box:hover {
+	width: 87.34%;
+	color: #070b3e;
+	background-color: #d06ce0;
+}
+.item_12_box {
+	height: 4em;
+}
+.item_12_box .yellow_square{
+	width:2em; height:2em;
+	background-color: #ff9;
+	margin:0 auto;
+	transition: background-color 1.2s ease-in 0s;
+}
+.item_12_box:hover .yellow_square {
+	background-color: #236ed5;
+}
+.item_13_box {
+	width:80%;
+	height: 2.5em;
+	transition: height 1.5s linear 0s;
+}
+.item_13_box:hover {
+	height: 8.5em;
+}
+.item_13_box a {
+	display:block;
+	overflow:hidden;
+	height:.2em;
+	background-color: #060;
+	margin:.1em auto;
+	padding-top: 0;
+	transition: height 1.5s linear 0s, padding-top 1.5s linear 0s;
+}
+.item_13_box:hover a {
+	height: 2em;
+	padding-top: 1em;
+}
+.item_14_box {
+	width: 150px;
+	height: 34px;
+	padding: 26px 0 0 0;
+	background-image: url(../img/dog.gif);
+	background-position: 3px 0px;
+	transition: background-position 1s linear 0s;
+}
+.item_14_box:hover {
+	background-position: -154px 0px;
+}
+
+.item_15_box {
+	color: #000;
+	background-image: url(../img/bckrd.jpg);
+	transform: translateY(-20px);
+	transition: background-position 2s linear 0s, transform 2s linear 0s, width 2s linear 0s;
+
+}
+.item_15_box:hover {
+	background-position: 0px -137px;
+	transform: translateY(137px);
+
+}
+
+
+/* DO NOT TOUCH STYLES BELOW HERE. Designing for mobile first */
+html {	background-color:#210;
+	font-size:100%;	}
+body {	background-color:#dcb;
+	font-size:90%;
+	width:94%; max-width:1280px;
+	margin: 0 auto 1rem auto;
+	font-family:Verdana, Geneva, sans-serif;
+	line-height: 1.4;	}
+header {	background-color:#765; }
+main {
+	display:block;
+	padding: 1rem 1rem 1rem 1rem;
+}
+h1 { font-size:1.4em;
+	font-weight:bold;
+	padding:1rem;
+	color: #fff; }
+
+a  { color:#ddf;text-decoration:underline; }
+a:link  { color:#ddf;  }
+a:visited { color:#bbf; }
+a:hover { color:#fff;   }
+a:focus { color:#fff; }
+a:active { color:#99f; }
+
+.grid-container {
+	padding: 2rem 0 0 0;
+}
+article {
+	margin: 0 1% .5rem 0;
+	position: relative;
+	background-color:#fff;
+	height: 16rem;
+}
+article header {
+	background-color:#fed;
+	padding: 1rem 1rem 1rem 1rem;
+}
+article footer {
+	background-color:#fed;
+	width:100%;
+	font-style:italic;
+	font-size: .8rem;
+	color:#600;
+	position:absolute;
+	bottom:0;
+	min-height:3rem;
+}
+article footer p {
+	padding: 1rem 1rem 1rem 1rem;
+}
+
+/* DO NOT TOUCH. STYLES ALL THE GREEN ITEM BOXES SHARE */
+
+section {
+	background-color:#090;
+	width: 50%; height: 1.2em;
+	font-size: .9em;
+	padding: 4%;
+	color:#eed;
+	text-align:center;
+	margin: 6% auto 6% auto;
+	cursor:pointer;
+}
+
+
+/* DO NOT TOUCH. Define styles that should only happen if the screen is wider */
+@media screen and (min-width:481px){
+	html{
+		font-size:100%;
+	}
+}
+@media screen and (min-width:721px){
+	html{
+		font-size:110%;
+	}
+	.grid-container {
+		display:flex;
+		flex-flow:row wrap;
+		justify-content: left;
+		padding: 2rem 0 0 0;
+	}
+	article {
+		margin: 0 1% .5rem 0;
+		flex:1 1 32%;
+		height: 20rem;
+	}
+	article header {
+		min-height:7rem;
+	}
+	article footer {
+		width:100%;
+	}
+}
+@media screen and (min-width:960px){
+	html{
+		font-size:115%;
+	}
+}
+/* ADD YOUR CODE AT TOP OF PAGE */
